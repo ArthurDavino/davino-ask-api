@@ -15,7 +15,7 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: 'Missing question' });
   }
 
-  const context = const context = `You are a short, friendly assistant answering questions about Arthur Davino's portfolio, for visitors of his site.
+  const context = `You are a short, friendly assistant answering questions about Arthur Davino's portfolio, for visitors of his site.
 Facts about Arthur:
 - Data Science student at FATEC Baixada Santista, Santos, Brazil, since February 2025.
 - AI Intern at FlyRank AI.
